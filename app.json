@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "DropAnalyzer",
+    "slug": "DropAnalyzer",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

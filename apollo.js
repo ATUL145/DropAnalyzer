@@ -4,7 +4,6 @@ import {
   ApolloProvider,
   createHttpLink,
 } from "@apollo/client";
-import AppNavigation from "./navigation/AppNavigation";
 
 const httpLink = createHttpLink({
   uri: "https://grateful-marmot-17.hasura.app/v1/graphql",
@@ -20,12 +19,4 @@ const client = new ApolloClient({
   },
 });
 
-function App() {
-  return (
-    <ApolloProvider client={client}>
-      <AppNavigation />
-    </ApolloProvider>
-  );
-}
-
-export default App;
+export default client;

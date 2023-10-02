@@ -1,0 +1,5 @@
+plugins {
+    id "com.android.library" apply true
+    id "org.jetbrains.kotlin.android" apply true
+    id "org.jetbrains.kotlin.jvm" apply true
+}
